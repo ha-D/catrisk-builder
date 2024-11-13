@@ -1,0 +1,58 @@
+{
+    "analysis_settings": {
+        "analysis_tag": "base_example",
+        "gul_output": true,
+        "gul_summaries": [
+            {
+                "aalcalc": true,
+                "eltcalc": true,
+                "id": 1,
+                "lec_output": true,
+                "leccalc": {
+                    "outputs": {
+                        "full_uncertainty_aep": true,
+                        "full_uncertainty_oep": true
+                    },
+                "return_period_file": true
+                }
+            }
+        ],
+        "gul_threshold": 0,
+        "ri_output": false,
+        "ri_summaries": [
+            {
+                "aalcalc": true,
+                "eltcalc": true,
+                "id": 1,
+                "lec_output": true,
+                "leccalc": {
+                    "outputs": {
+                        "full_uncertainty_aep": true,
+                        "full_uncertainty_oep": true
+                    },
+                    "return_period_file": true
+                }
+            }
+        ],
+        "il_output": false,
+        "il_summaries": [
+            {
+                "aalcalc": true,
+                "eltcalc": true,
+                "id": 1,
+                "lec_output": true,
+                "leccalc": {
+                    "outputs": {
+                        "full_uncertainty_aep": true,
+                        "full_uncertainty_oep": true
+                    },
+                    "return_period_file": true
+                }
+            }
+        ],
+        "model_name_id": "CRSEQ_2.1.5",
+        "model_supplier_id": "Catrisks",
+        "number_of_samples": 100,
+        "source_tag": "test"
+    }
+}

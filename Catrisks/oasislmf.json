@@ -1,0 +1,14 @@
+{
+    "analysis_settings_json": "analysis_settings.json",
+    "modelpy": false,
+    "gulpy": false,
+    "gulmc": true,
+    "lookup_data_dir": "/var/oasis/keys_data",
+    "lookup_module_path": "src/keys_server/ModelKeysLookup.py",
+    "lookup_package_dir": "src/keys_server",
+    "model_data_dir": "/var/oasis/model_data",
+    "model_version_csv": "/home/worker/model/ModelVersion.csv",
+    "write_chunksize": 200000,
+    "exposure_pre_analysis_module": "/home/worker/model/src/keys_server/CatrisksExposureDisaggPreAnalysis.py",
+	"exposure_pre_analysis_setting_json": "/home/worker/model/src/keys_server/exposure_pre_analysis.json"
+}
