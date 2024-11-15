@@ -1,6 +1,6 @@
 FROM coreoasis/model_worker:2.3.10
 
-RUN pip3 install msoffcrypto-tool openpyxl
+RUN pip3 install --break-system-packages msoffcrypto-tool openpyxl
 
 ADD Catrisks/ /home/worker/model
 
